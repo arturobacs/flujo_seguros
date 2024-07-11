@@ -10,6 +10,8 @@ try:
     # Exportar a Excel
     archivo_excel = 'clientes_ordenados.xlsx'
     data_ordenada.to_excel(archivo_excel, index=False)
+
+    # probando esta webada
     
     print(f"Datos exportados exitosamente a {archivo_excel}")
 except Exception as e:
